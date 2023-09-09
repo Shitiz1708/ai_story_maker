@@ -25,7 +25,7 @@ Future<List<Images>> getImages({
         "n": n,
         "size": "256x256",
       },
-      token: "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",
+      token: "your_api_key",
     );
     Map<String, dynamic> mp = jsonDecode(res.toString());
     debugPrint(mp.toString());
@@ -74,7 +74,7 @@ Future<Chat> getText({
         "presence_penalty": 0.6,
         // "stop": ["A : "]
       },
-      token: "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",
+      token: "your_api_key",
     );
     Map<String, dynamic> mp = jsonDecode(res.toString());
     debugPrint(mp.toString());
@@ -147,7 +147,7 @@ Future<Chat> getTextViaTurbo({
         "frequency_penalty": 0,
         "presence_penalty": 0.6,
       },
-      token: "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",
+      token: "your_api_key",
     );
     Map<String, dynamic> mp = jsonDecode(res.toString());
     debugPrint(mp.toString());
@@ -191,7 +191,7 @@ Future<String> getTextViaWhisper(
   var apiUrl = 'https://api.openai.com/v1/audio/transcriptions';
   //for translations
 
-  var openaiApiKey = "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";
+  var openaiApiKey = "your_api_key";
   var model = 'whisper-1';
   try {
     var dio = dio1.Dio();

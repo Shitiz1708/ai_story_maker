@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "801474690315",
+    "project_id": "ai-story-maker-bbde4",
+    "storage_bucket": "ai-story-maker-bbde4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801474690315:android:7fca6264d9a699ee7ef60e",
+        "android_client_info": {
+          "package_name": "com.ai.story"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801474690315-52quc4t719pt95r1rvukepd7i5ijl7av.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ai.story",
+            "certificate_hash": "6262b5756474d80f695850a964a58ebb8ef81979"
+          }
+        },
+        {
+          "client_id": "801474690315-oqu2cji9ah7mp7fj03ajibt4e8nprt5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF6rw4iVcKWy1AIle5M0llgOPmFsSjwp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801474690315-dsg0bmcta7lme8q15um915s9pjphl0vq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "801474690315-b5553jgb7cdbi22ies7e1oeujoj9knf0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ai.story"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

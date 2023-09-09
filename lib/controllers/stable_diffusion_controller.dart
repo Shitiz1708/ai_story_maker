@@ -77,7 +77,7 @@ class StableDiffusionController extends GetxController {
 
       final Uri apiUrl = Uri.parse("https://api.prodia.com/v1/sd/transform");
       final Map<String, String> headers = {
-        'X-Prodia-Key': '598f5981-3669-4466-9b16-4afd33992cc0',
+        'X-Prodia-Key': 'your_api_key',
         'accept': 'application/json',
         'content-type': 'application/json',
       };
@@ -125,7 +125,7 @@ class StableDiffusionController extends GetxController {
 
       final Uri apiUrl = Uri.parse("https://api.prodia.com/v1/sd/generate");
       final Map<String, String> headers = {
-        'X-Prodia-Key': '598f5981-3669-4466-9b16-4afd33992cc0',
+        'X-Prodia-Key': 'your_api_key',
         'accept': 'application/json',
         'content-type': 'application/json',
       };
@@ -159,7 +159,7 @@ class StableDiffusionController extends GetxController {
 
       final Uri apiUrl = Uri.parse("https://api.prodia.com/v1/job/$jobId");
       final Map<String, String> headers = {
-        'X-Prodia-Key': '598f5981-3669-4466-9b16-4afd33992cc0',
+        'X-Prodia-Key': 'your_api_key',
         'accept': 'application/json',
       };
 

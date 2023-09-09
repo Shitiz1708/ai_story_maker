@@ -16,10 +16,6 @@ At PromoGen.AI, we understand the importance of cutting-edge technology and inno
 
 - **Instant Prototyping:** Quickly turn your ideas into working prototypes with the help of PromoGen.AI's AI-assisted development tools.
 
-- **Smart Code Review:** Ensure your code meets the highest standards with AI-driven code review and suggestions.
-
-- **Real-time Collaboration:** Seamlessly collaborate with team members, no matter where they are, to build a winning project.
-
 - **Performance Optimization:** Use AI insights to optimize your project's performance and efficiency.
 
 ## Getting Started

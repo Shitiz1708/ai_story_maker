@@ -15,7 +15,7 @@ class ApiServices {
 
     conversationHistory.add({"role": "user", "content": prompt});
 
-    String apiKey = "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";
+    String apiKey = "your_api_key";
     if (addApiKey != null) {
       apiKey = addApiKey;
     } else {}

@@ -9,7 +9,7 @@ class MathPixController extends GetxController {
   bool get isLoading => _isLoading;
 
   String appKey =
-      '2e0904dca971decd638357df827fba1f25c6607c78e4f42addf2620dd9b6d18f';
+      'your_api_key';
 
   Future<String> getAppToken() async {
     const String url = 'https://api.mathpix.com/v3/app-tokens';
